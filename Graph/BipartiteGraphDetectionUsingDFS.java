@@ -15,7 +15,7 @@
 	Observation: 
 		A graph will not be Bipartite only if the Graph contains Odd length Cycle. If a Graph will not contain Odd Length cycle, then it can always be bipartite.
 		A Graph not containing Odd Length cycle doesn't mean that the Graph contains even length cycle. If Graph does not contain any cycle, or Graph
-		contains even length cycle, then the graph must be Bipartite.
+		contains even length cycle, then the graph must be Bipartite. 
 
 	Time Complexity: O(V+E), where V is the number of vertices and E is the number of Edges [Since we are utilizing DFS traversal algorithm]
 	Space Complexity: O(V+E) for creating or maintaining the Adjacency list + O(V) for the Color array
