@@ -2,7 +2,7 @@
 	Topological Sorting using BFS traversal, aka Kahn's algorithm
 	
 	Concepts:
-		1. 	The ordering of vertices in a directed Acyclic Graph is told to be in Topological ordering if and only if the below condition satisfies
+		1. The ordering of vertices in a directed Acyclic Graph is told to be in Topological ordering if and only if the below condition satisfies
 				for every edge u -> v, u must appear before v in the ordering
 				
 		2. The graph must be Directed Acyclic Graph. 
